@@ -1,0 +1,140 @@
+<!doctype html>
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<title>Noise Texture Generator v2.1</title>
+	<meta name="keywords" content="noise generator, texture generator, noise texture, web2 noise, noise gen, noise patterns, canvas noise, noisy patterns, noisy backgrounds" />
+	<meta name="description" content="Generate your noise texture pattern easy and fast within 3 steps! The ultimate designer tool created by Andrew Ckor." />
+	<meta name="author" content="Andrew Ckor, www.andrewckor.com" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	
+	<!-- Loading Modernizr -->
+	<script src="js/modernizr.js" type="text/javascript" ></script>
+	
+	<!-- Loading Stylesheets -->
+	<link rel="stylesheet" href="css/custom-theme/jquery-ui.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	
+	<!-- Loading Google Analytics -->
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-12083181-5']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+</head>
+<body>
+
+
+<div class="header_wrapper">
+	<header class="header">
+		<a class="logo" href="http://www.noisetexturegenerator.com/">
+			<h1>Noise Texture Generator</h1>
+		</a>
+	</header><!-- end of header -->
+</div><!-- end of header wrapper -->
+
+<div class="main_wrapper">
+	<div class="main">
+		<div class="left_col">
+			
+			<div class="content">
+			
+				<div class="title first_title">
+					<h2>Noise opacity</h2>
+				</div><!-- end of title -->
+				<div class="item first_item">
+					<div id="slider"></div>
+				</div><!-- end of item -->
+				
+				<div class="title">
+					<h2>Noise density</h2>
+				</div><!-- end of title -->
+				<div class="item">
+					<div id="slider-dens"></div>
+				</div><!-- end of item -->
+				
+				<div class="title">
+					<h2>Background Color</h2>
+				</div><!-- end of title -->
+				<div class="item">
+					<input type="text" value="f34379" class="color_input" />
+				</div><!-- end of item -->
+				
+				
+				<div class="title">
+					<h2>Transparent noise?</h2>
+				</div><!-- end of title -->
+				<div class="item">
+					<label for="transparent-noise">
+					<input type="checkbox" id="transparent-noise" />
+					 <strong>Yes, I want my noise be transparent.</strong>
+					</label>
+				</div><!-- end of item -->
+				
+				<div class="title">
+					<h2>Dimensions of the pattern</h2>
+				</div><!-- end of title -->
+				<div class="item">
+					<input type="text" value="100" class="x_size_input" />
+					<img src="images/X.png" alt="X" class="X_image" />
+					<input type="text" value="100" class="y_size_input" />
+					<p>
+						<strong>Warning:</strong> I recommend you up to 200 x 200<br />
+						Changes will not affect the sample image, only the final product.
+					</p>
+				</div><!-- end of item -->
+				
+			</div><!-- end of content left col -->
+			
+		</div><!-- end of left col -->
+		
+		<div class="mid_col">
+			<img src="images/arrow.png" alt="arrow" />
+		</div><!-- end of mid col -->
+		
+		<section class="right_col">
+			<header class="title">
+				<h2>Your Sample Noise</h2>
+			</header><!-- end of title -->
+			
+			<footer class="item final_noise">
+				<!-- Here placed the sample noise -->
+			</footer><!-- end of item -->
+		</section><!-- end of right col -->
+		
+		<div class="download_pane">
+			<a href="#" class="download_button">Download now!</a>
+		</div><!-- end of download pane -->
+		
+		<footer class="footer clearbox">
+			<div class="left">Noise texture generator - Created by <a href="http://www.andrewckor.com" title="Andrew Ckor - Web Designer &amp; Front End Developer">Andrew Ckor</a></div>
+			<div class="right">
+			<!-- Place this tag where you want the +1 button to render -->
+			<a href="https://twitter.com/ckor" class="twitter-follow-button" data-show-count="false">Follow @ckor</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.noisetexturegenerator.com" data-text="Awesome HTML5 Noise Texture Generator by Andrew Ckor" data-via="ckor" data-related="ckor" data-hashtags="noisetexturegenerator">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</footer><!-- end of footer -->
+		
+	</div><!-- end of main -->
+</div><!-- end of main wrapper -->
+
+<!-- Loading scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="js/colorpicker.js" type="text/javascript" ></script>
+<script src="js/script.js" type="text/javascript"></script>
+<!-- end of scripts -->
+</body>
+</html>
