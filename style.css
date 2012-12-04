@@ -753,3 +753,21 @@ label {
 .ui-slider .ui-slider-handle {
 	outline: none;
 }
+
+
+
+/************************************************************************
+ PAYPAL MODULE
+************************************************************************/
+.paypal-button {
+	position: absolute;
+	top:30px; 
+	right: 30px;
+}
+
+@media (max-width: 850px) {
+	.logo {
+		float: left;
+		margin-left: 30px;
+	}
+}
