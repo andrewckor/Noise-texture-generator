@@ -802,6 +802,10 @@ label {
   clear: both;
 }
 
+.ad-content a {
+	display: block;
+}
+
 .ad-creative {
 	float: left;
 }
@@ -830,6 +834,10 @@ label {
 }
 
 .ad-text p {
+	color: #AA9486;
+}
+
+.ad-content a:hover p {
 	color: #AA9486;
 }
 
