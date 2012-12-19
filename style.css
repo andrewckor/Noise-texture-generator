@@ -800,10 +800,25 @@ label {
   clear: both;
 }
 
-.ad-creative,
-.ad-network {
+.ad-creative {
 	float: left;
+}
+
+.ad-network,
+.ad-text {
 	margin-left: 135px;
+} 
+
+.ad-text p {
+	color: #AA9486;
+}
+
+.ad-discount {
+	background: #F34379;
+	color: #fff;
+	padding: 3px;
+	font-size: 12px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
 
 .ad-creative img {
