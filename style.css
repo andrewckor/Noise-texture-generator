@@ -361,6 +361,7 @@ body:after {
 	margin-top: 6%;
 	position: relative;
 	color: #fff;
+	float: left;
 	-webkit-transition: text-shadow .5s;
 	   -moz-transition: text-shadow .5s;
 	    -ms-transition: text-shadow .5s;
@@ -779,6 +780,7 @@ label {
 
 #grooveads {
 	width: 310px;
+	top: 22px;
 }
 
 .ad-content,
@@ -804,10 +806,28 @@ label {
 	float: left;
 }
 
-.ad-network,
 .ad-text {
 	margin-left: 135px;
 } 
+
+.ad-network {
+	float: right;
+	margin: -16px 0 0 0;
+	color: 
+	#2B2522;
+	text-shadow: 0 1px 0 
+	rgba(255, 255, 255, .1);
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.ad-network a {
+	color: #AA9486;
+}
+
+.ad-network a:hover {
+	color: #f34379;
+}
 
 .ad-text p {
 	color: #AA9486;
@@ -816,9 +836,15 @@ label {
 .ad-discount {
 	background: #F34379;
 	color: #fff;
-	padding: 3px;
+	padding: 1px 3px;
 	font-size: 12px;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+	font-weight: bold;
+	top: 3px;
+	position: relative;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
 }
 
 .ad-creative img {
