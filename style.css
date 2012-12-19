@@ -771,3 +771,54 @@ label {
 		margin-left: 30px;
 	}
 }
+
+
+/************************************************************************
+ GROOVE ADS
+************************************************************************/
+
+#grooveads {
+	width: 310px;
+}
+
+.ad-content,
+.ad-content a {
+  *zoom: 1;
+}
+
+.ad-content:before,
+.ad-content:after,
+.ad-content a:before,
+.ad-content a:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.ad-content:after,
+.ad-content a:after {
+  clear: both;
+}
+
+.ad-creative,
+.ad-network {
+	float: left;
+	margin-left: 135px;
+}
+
+.ad-creative img {
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+	   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+	        box-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+}
+
+.ad-title {
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+
+
