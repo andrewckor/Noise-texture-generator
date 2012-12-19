@@ -817,8 +817,7 @@ label {
 .ad-network {
 	float: right;
 	margin: -16px 0 0 0;
-	color: 
-	#2B2522;
+	color: #2B2522;
 	text-shadow: 0 1px 0 
 	rgba(255, 255, 255, .1);
 	font-weight: bold;
@@ -826,7 +825,7 @@ label {
 }
 
 .ad-network a {
-	color: #AA9486;
+	color: #2B2522;
 }
 
 .ad-network a:hover {
