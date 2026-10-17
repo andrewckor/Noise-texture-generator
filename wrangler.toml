@@ -1,0 +1,15 @@
+# noisetexturegenerator.com — static site on Cloudflare Workers (moved from Opalstack 2026-10-17).
+# Deploy: `wrangler deploy` from this folder. Old pre-2026 version: branch legacy-2026-10.
+name = "noisetexturegenerator"
+compatibility_date = "2026-10-07"
+
+# Custom domains (uncomment once the noisetexturegenerator.com zone is active on Cloudflare
+# and its A records for @ and www are deleted).
+# routes = [
+#   { pattern = "noisetexturegenerator.com", custom_domain = true },
+#   { pattern = "www.noisetexturegenerator.com", custom_domain = true },
+# ]
+workers_dev = true
+
+[assets]
+directory = "."

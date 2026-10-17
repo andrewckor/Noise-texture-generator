@@ -408,4 +408,3 @@ if ( !neatDownload ) {
 		e.preventDefault();
 	});
 }
-
