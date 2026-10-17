@@ -3,12 +3,11 @@
 name = "noisetexturegenerator"
 compatibility_date = "2026-10-07"
 
-# Custom domains (uncomment once the noisetexturegenerator.com zone is active on Cloudflare
-# and its A records for @ and www are deleted).
-# routes = [
-#   { pattern = "noisetexturegenerator.com", custom_domain = true },
-#   { pattern = "www.noisetexturegenerator.com", custom_domain = true },
-# ]
+# Custom domains (attached 2026-10-17; zone noisetexturegenerator.com on Cloudflare, no A records for @/www).
+routes = [
+  { pattern = "noisetexturegenerator.com", custom_domain = true },
+  { pattern = "www.noisetexturegenerator.com", custom_domain = true },
+]
 workers_dev = true
 
 [assets]
